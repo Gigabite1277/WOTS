@@ -1,0 +1,92 @@
+[
+  {
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+      "title": "City Council Approves New Green Spaces Initiative",
+      "slug": "city-council-approves-green-spaces-initiative",
+      "author": "Jane Doe",
+      "excerpt": "The city council voted unanimously to fund the creation of ten new community parks across the metropolitan area, aimed at improving air quality and resident well-being.",
+      "body": "The city council voted unanimously on Tuesday to fund the creation of ten new community parks across the metropolitan area. The initiative, which has been in discussion for the past two years, will receive $15 million in funding from the municipal budget.\n\nMayor Thompson praised the decision, stating that the green spaces will not only improve air quality but also provide residents with much-needed recreational areas. Construction is expected to begin in the spring, with the first parks opening by the end of the year.\n\nLocal environmental groups have also expressed strong support for the initiative, noting that increased tree coverage could reduce urban heat island effects by up to 8 degrees Celsius.",
+      "published_date": "2026-04-24T10:00:00Z",
+      "is_published": true,
+      "created_at": "2026-04-24T09:00:00Z",
+      "updated_at": "2026-04-24T09:00:00Z"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+      "title": "Local Tech Startup Secures $2M Seed Funding",
+      "slug": "local-tech-startup-secures-2m-seed-funding",
+      "author": "Mark Rivera",
+      "excerpt": "ByteLeap, a local software startup, has secured $2 million in seed funding to expand its AI-powered scheduling platform used by hospitals across the region.",
+      "body": "ByteLeap, a software startup headquartered downtown, has successfully secured $2 million in seed funding from a group of regional investors. The company plans to use the funds to grow its engineering team and expand its AI-powered scheduling platform.\n\nFounded three years ago by CEO Priya Nair, ByteLeap's platform is currently used by more than thirty hospitals in the state to optimise staff scheduling and reduce overtime costs. The company reports that its clients have seen an average 20% reduction in scheduling-related expenses.\n\n\"This investment will allow us to accelerate our product roadmap and bring our solution to healthcare providers nationwide,\" said Nair in a statement released this morning.",
+      "published_date": "2026-04-23T08:30:00Z",
+      "is_published": true,
+      "created_at": "2026-04-23T08:00:00Z",
+      "updated_at": "2026-04-23T08:00:00Z"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 3,
+    "fields": {
+      "title": "Annual Food Festival Returns to Riverside Park",
+      "slug": "annual-food-festival-returns-riverside-park",
+      "author": "Sofia Chen",
+      "excerpt": "After a two-year hiatus, the beloved Annual Food Festival is set to return to Riverside Park next weekend, featuring over 80 local vendors and live entertainment.",
+      "body": "After a two-year hiatus, the beloved Annual Food Festival is set to return to Riverside Park next weekend. Organisers have confirmed that over 80 local food vendors will participate, offering cuisine from more than 25 different countries.\n\nThis year's festival will run from Saturday through Sunday, 10am to 9pm each day. In addition to food stalls, attendees can enjoy live music on two stages, cooking demonstrations by local chefs, and a dedicated kids' zone.\n\nFestival director Maria Santos said the team is thrilled to bring the event back: \"We've missed this community gathering and we've been working hard to make this year's festival the best one yet.\" Entry is free, though some ticketed experiences will be available for purchase on the day.",
+      "published_date": "2026-04-22T14:00:00Z",
+      "is_published": true,
+      "created_at": "2026-04-22T13:00:00Z",
+      "updated_at": "2026-04-22T13:00:00Z"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 4,
+    "fields": {
+      "title": "School District Launches Free Summer Reading Programme",
+      "slug": "school-district-launches-free-summer-reading-programme",
+      "author": "Tom Wallace",
+      "excerpt": "The school district has announced a new free summer reading programme for K-8 students, partnering with local libraries to provide access to thousands of books.",
+      "body": "The school district has announced a new free summer reading programme aimed at students in grades K through 8. Launching on June 1st, the programme will partner with all twelve branches of the public library system to provide students with access to a curated selection of more than 5,000 titles.\n\nStudents who complete the programme will earn certificates and be entered into a prize draw for educational supplies. The initiative is funded through a federal literacy grant awarded to the district earlier this year.\n\nSuperintendent Davis emphasised the importance of preventing the \"summer slide\", noting that students who read regularly over the summer months typically perform better in the following school year. Registration opens on May 15th through the district's website.",
+      "published_date": "2026-04-21T09:00:00Z",
+      "is_published": true,
+      "created_at": "2026-04-21T08:30:00Z",
+      "updated_at": "2026-04-21T08:30:00Z"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 5,
+    "fields": {
+      "title": "New Public Transport Route Connects Suburbs to Downtown",
+      "slug": "new-public-transport-route-suburbs-downtown",
+      "author": "Jane Doe",
+      "excerpt": "The regional transit authority has inaugurated a new express bus route linking three suburban neighbourhoods directly to the downtown business district, cutting commute times by up to 25 minutes.",
+      "body": "The regional transit authority has inaugurated a new express bus route that directly connects three suburban neighbourhoods to the downtown business district. The route, which launched this morning, is expected to reduce peak commute times by up to 25 minutes compared to existing indirect services.\n\nThe new route will run seven days a week, with buses every 15 minutes during peak hours and every 30 minutes off-peak. The authority has also introduced a new fare-capping system, meaning regular commuters will not pay more than a daily maximum regardless of the number of trips taken.\n\nCommuter advocacy groups praised the announcement, saying the new route addresses a long-standing gap in the network that has forced many residents to rely on private vehicles for their daily journeys.",
+      "published_date": "2026-04-20T07:00:00Z",
+      "is_published": true,
+      "created_at": "2026-04-20T06:30:00Z",
+      "updated_at": "2026-04-20T06:30:00Z"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 6,
+    "fields": {
+      "title": "Community Volunteers Restore Historic Town Square Mural",
+      "slug": "community-volunteers-restore-historic-town-square-mural",
+      "author": "Sofia Chen",
+      "excerpt": "Dozens of volunteers spent the weekend carefully restoring the town square's historic mural, a 1960s artwork depicting the region's agricultural heritage.",
+      "body": "Dozens of community volunteers spent the weekend carefully restoring the town square's historic mural, a sprawling 1960s artwork depicting the region's agricultural heritage. The mural, which had suffered significant fading and water damage over the decades, was one of the last works of renowned local artist Elena Vasconcelos.\n\nThe restoration project was led by conservator Dr. James Park, who worked with a team of trained volunteers using period-appropriate pigments sourced from Europe. The project took four months of planning before the actual restoration work could begin.\n\n\"It was incredibly moving to see so many community members come out to preserve this piece of our shared history,\" said project coordinator Lisa Martin. The restored mural is expected to be formally unveiled at a public ceremony next month.",
+      "published_date": "2026-04-19T11:30:00Z",
+      "is_published": true,
+      "created_at": "2026-04-19T11:00:00Z",
+      "updated_at": "2026-04-19T11:00:00Z"
+    }
+  }
+]

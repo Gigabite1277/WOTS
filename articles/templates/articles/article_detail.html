@@ -1,0 +1,78 @@
+{% extends "articles/base.html" %}
+
+{% block title %}{{ article.title }} &mdash; WOTS{% endblock %}
+
+{% block extra_styles %}
+.article-header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #e94560;
+    padding-bottom: 1.25rem;
+}
+
+.article-back {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    color: #e94560;
+    text-decoration: none;
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.3px;
+}
+
+.article-back:hover { text-decoration: underline; }
+
+.article-title {
+    font-size: 2.2rem;
+    line-height: 1.25;
+    color: #1a1a2e;
+    margin-bottom: 0.75rem;
+}
+
+.article-meta {
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.article-meta span { margin-right: 1.5rem; }
+
+.article-excerpt {
+    font-size: 1.15rem;
+    color: #444;
+    font-style: italic;
+    border-left: 4px solid #e94560;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+}
+
+.article-body {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: #333;
+    max-width: 750px;
+}
+
+.article-body p { margin-bottom: 1.25rem; }
+{% endblock %}
+
+{% block content %}
+<a class="article-back" href="{% url 'articles:homepage' %}">&larr; Back to all articles</a>
+
+<article>
+    <header class="article-header">
+        <h1 class="article-title">{{ article.title }}</h1>
+        <div class="article-meta">
+            <span>{{ article.published_date|date:"F j, Y" }}</span>
+            <span>By {{ article.author }}</span>
+        </div>
+    </header>
+
+    {% if article.excerpt %}
+    <p class="article-excerpt">{{ article.excerpt }}</p>
+    {% endif %}
+
+    <div class="article-body">
+        {{ article.body|linebreaks }}
+    </div>
+</article>
+{% endblock %}

@@ -1,1 +1,45 @@
+# WOTS — World Of The Stories
 
+A news and articles web application built with Django.
+
+## Features
+
+- **Homepage** — Lists the latest published articles ordered by date
+- **Article detail page** — Full article view with author and publication date
+- **Admin panel** — Manage articles via Django's built-in admin interface
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.10+
+- pip
+
+### Installation
+
+```bash
+# Install dependencies
+pip install django
+
+# Apply database migrations
+python manage.py migrate
+
+# Load sample articles
+python manage.py loaddata sample_articles
+
+# (Optional) Create an admin user
+python manage.py createsuperuser
+
+# Run the development server
+python manage.py runserver
+```
+
+Then open http://127.0.0.1:8000/ in your browser to view the homepage.
+
+The admin panel is available at http://127.0.0.1:8000/admin/.
+
+## Running Tests
+
+```bash
+python manage.py test articles
+```
