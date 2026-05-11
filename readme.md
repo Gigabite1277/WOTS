@@ -37,6 +37,14 @@ To be able to comment on all news stories to promote community interaction, ault
 
 ### Design Choices
 
+**Database Design**
+
+![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/dbdiagram.png "Logo Title Text 1")
+
+
+**W.O.T.S Wireframes**
+
+![W.O.T.S Wireframes](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotswireframe.png "Logo Title Text 1")
 
 #### Fonts
   
