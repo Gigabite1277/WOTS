@@ -3,26 +3,25 @@
 WOTS (Word On The Street) new/blog site.  The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
 
 ## Strategy
+
+
 ## Project Goals
 
-  * To build a card playing game in which the user tries to match their cards to one flashed on screenbefore after it's disappeared.
+*The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
   
 ## User Goals
 
-  * To guess the correct card after it flashes on screen
-  * To complete as many matches until Miss Points reach zero
+To find out whats going on in the local area. Things such as charity events, good news stories, neighbouhood watch, places shopping and other such information.
 
-  ## User Stories
+To be able to comment on all news stories to promote community interaction, aulturism, innovation. 
+  
+## User Stories
 
-#### User Story - One : I used to love playing cards games on my old PC
-
-  * "I just love card games and would really love a card game I can play by myself when I'm bored.".
-
-    Acceptence Criteria Met: 
-User is able to play a card game by himself
 
 ##  User's Experience 
-##  In Game Screenshots of the Finished Project that met user expectations
+
+
+##  Screenshots of the Finished Project that met user expectations
 
 ---
 
@@ -32,27 +31,27 @@ User is able to play a card game by himself
 
 ---
 ##  Skeleton + Surface
+
+
+
+
 ### Design Choices
 
 
 #### Fonts
-  * The chosen primary font is Arial with the chosen font colour being black.
-  * The chosen secondary font is Lucida Sans with the chosen font colour being black.
+  
 
 Icons
 
-  * Icons that are related to the Playing cards will be used accross this project.
+
   
 
 Colours
-  * Green, grey,and white will form the colour scheme accross all pages.
-  * This colour scheme follows that of a poker table.
+  
 
 
 Styling
 
-  * To use tropes relating to a poker table.
-  * Green grey, white and black colour scheme.
 
 
 
