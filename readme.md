@@ -51,7 +51,7 @@ Then: User found 3 related articles of burglaries
 
 ---
 
-Title:
+Story Title:
 Post a Comment
 
 User Persona:
@@ -100,7 +100,7 @@ Then: User was able to vote down the comment using the up or down arrow buttons.
 
 ---
 
-##  USER STÔRY: Site Administrator
+### User Story: Site Administrator
 
 Story Title:
 Admin Dashboard
@@ -136,8 +136,6 @@ Then: Admin pulled the old article and published a new and corrected news articl
 
 ---
 
-##  User's Experience 
-
 
 ##  Screenshots of the Finished Project that met user expectations
 
@@ -148,7 +146,26 @@ Then: Admin pulled the old article and published a new and corrected news articl
 
 
 ---
-##  Skeleton + Surface
+
+#   UX UI Desgign
+
+##  Surface
+
+---
+
+##  Skeleton
+
+---
+
+##  Structure
+
+---
+
+##  Scope
+
+---
+
+##  Strategy
 
 
 
@@ -165,7 +182,8 @@ Then: Admin pulled the old article and published a new and corrected news articl
 ![W.O.T.S Wireframes](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotswireframe.png "Logo Title Text 1")
 
 #### Fonts
-  
+
+  Black font lettering against a white background for best visual experience for the user.
 
 Icons
 
@@ -173,7 +191,8 @@ Icons
   
 
 Colours
-  
+
+The colour scheme wil be most purple, black and white
 
 
 Styling
@@ -197,7 +216,7 @@ Styling
 
 ---
 ## Deployment
-Via Git Hub
+Via Heroku
 
 * Make sure the branch you want to use as your publishing source already exists in your repository.
 
