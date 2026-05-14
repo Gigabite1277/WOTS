@@ -153,13 +153,13 @@ Then: Admin pulled the old article and published a new and corrected news articl
 The wireframes and prototypes created on the skeleton plane will be used on the surface plane – the top and most concrete plane – to create the final pages for the product. At this stage, we’re concerned with the users’ sensory experience. This includes how the colours and textures employed in the visual design help them understand how to navigate through and interact with the site, and how the presentation of content draws their eye to key information.
 
 For our electric car charging app, this could mean creating a consistent colour palette and layout, where the logo appears at the top of the page, the most important information appears in a wide column in the middle of the page, and less important information is relegated to each side of the page. This layout anchors users with its consistent visual style while enabling them to easily find the information they’re seeking.
----
+
 
 ##  Skeleton
 After deciding how the product will be structured, its skeleton can be designed. This entails deciding where the navigation and functional elements from the previous plane will go on each product page. It’s here that UX designers will make decisions about the product’s information design, creating wireframes and prototypes that arrange each part of the product, including the buttons, links, images and text. These are laid out in a way that ensures that users can quickly move through each page to find the information they need, while also understanding which elements of each page are interactive and which are not.
 
 For instance, in our app, if we want to explain what users will see when they navigate to a page that describes a specific electric car charging station, we would create a wireframe that provides a blueprint of where each component of the page would go. Perhaps we have a header with the app logo and navigation back to the complete list of stations. This will be followed by an image of the charging station, followed by a link to a map of the location followed by text providing practical information about the station. This will help visualise each piece of functionality and content that will appear on the page and its placement.
----
+
 
 ##  Structure
 Once the scope of the product has been outlined, it’s time to start working on the structure. This is where each element of navigation will be decided, including where in the product each page can be found and where users can go after arriving at a given page. This involves defining the interaction design and information architecture of the product.
@@ -171,14 +171,14 @@ On the information architecture side, we need to structure the content the produ
 For example, to convey the structure of our electric car charger finder app, we might create a site map that shows the hierarchy of the product. This could include a home page where users can enter a location to find car charging stations. This could then lead to a list of stations each with a link that takes users to pages for individual stations.
 
 In addition, we could also create a user flow where we show how the system responds after a user enters their location information. It can account for what happens if the system finds nearby charging stations and if there’s an error that prevents the system from successfully understanding the location information provided.
----
+
 
 ##  Scope
 
 After deciding on the strategy, the scope of the product can be determined and laid out in detail. It’s here that all a product’s features are decided upon, including the information that users can find and the functionality that users can interact with. On this plane, the UX team will create a set of functional specifications that identifies and describes every single feature of the product and a list of content requirements that identifies every single piece of content that will be included.
 
 For instance, in our car charger finding app, on the functional specifications side we might want to include a feature to save previously discovered charging stations in our functional specifications. Meanwhile, in our content requirements we might list information like images of each charging station, maps of their locations, and details about the voltage of each available charger.
----
+
 
 ##  Strategy
 The bottom plane of the model is Strategy. As the most abstract and least constrained part of the project, this is where decisions should be made about what objectives the product should be designed to meet. These objectives should include the goals that both the clients and stakeholders behind the product want to meet and the goals of the users, who will eventually look to the product to solve specific problems for them.
