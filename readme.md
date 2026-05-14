@@ -187,7 +187,14 @@ For example, let’s say we’ve been hired to build an app that helps people fi
 
 On the other hand, we need to meet user needs if we want users to come to our app for information. That means we need to understand what goals users would have when using the app, which we can discover through user research. In this case, we might want to learn if users would want our product to provide directions to the nearest charging station, information about how many chargers are available there and how much it costs to charge a car at each listed charging station.
 
+##DETAILS
 
+The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  
+The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
+Another goal is to bring the community together through shared interests and endeavours: things such as charity events,food banks, soup kitchens etc.
+Point the user towards local services and advice for social, 
+
+INCLUDE USER STORIES IN THIS SECTION
 
 ### Design Choices
 
