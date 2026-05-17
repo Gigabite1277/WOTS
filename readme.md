@@ -37,7 +37,7 @@ The wireframes and prototypes created on the skeleton plane will be used on the 
 
 For our electric car charging app, this could mean creating a consistent colour palette and layout, where the logo appears at the top of the page, the most important information appears in a wide column in the middle of the page, and less important information is relegated to each side of the page. This layout anchors users with its consistent visual style while enabling them to easily find the information they’re seeking.
 
-![W.O.T.S Logo](https://github.com/Gigabite1277/match-or-miss/blob/main/assets/images/assets/images/WOTS_Sketches_ALL.png "Logo Title Text 1")
+![W.O.T.S Logo](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/WOTS_Sketches_ALL.png "Logo Title Text 1")
 
 
 ##  Skeleton
