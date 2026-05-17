@@ -37,6 +37,8 @@ The wireframes and prototypes created on the skeleton plane will be used on the 
 
 For our electric car charging app, this could mean creating a consistent colour palette and layout, where the logo appears at the top of the page, the most important information appears in a wide column in the middle of the page, and less important information is relegated to each side of the page. This layout anchors users with its consistent visual style while enabling them to easily find the information they’re seeking.
 
+![W.O.T.S Logo](https://github.com/Gigabite1277/match-or-miss/blob/main/assets/images/assets/images/WOTS_Sketches_ALL.png "Logo Title Text 1")
+
 
 ##  Skeleton
 After deciding how the product will be structured, its skeleton can be designed. This entails deciding where the navigation and functional elements from the previous plane will go on each product page. It’s here that UX designers will make decisions about the product’s information design, creating wireframes and prototypes that arrange each part of the product, including the buttons, links, images and text. These are laid out in a way that ensures that users can quickly move through each page to find the information they need, while also understanding which elements of each page are interactive and which are not.
@@ -223,7 +225,7 @@ Icons
 
   
 
-Colours
+### Colours
 
 The colour scheme wil be most purple, black and white
 
@@ -240,6 +242,12 @@ Styling
 
 ---
 ## Technologies Used
+
+###software###
+HTML, CSS, Javascript, Python
+
+###Developement Platforms###
+Git Hub, Heroku
 
 
 ## Testing 
