@@ -61,6 +61,19 @@ For example, to convey the structure of our electric car charger finder app, we 
 
 In addition, we could also create a user flow where we show how the system responds after a user enters their location information. It can account for what happens if the system finds nearby charging stations and if there’s an error that prevents the system from successfully understanding the location information provided.
 
+W.O.T.S DATABASE ERD
+
+### Reader Database ERD
+![Reader Database ERD](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/reader_erd.png "Logo Title Text 1")
+
+
+### Story Database ERD
+![Story Database ERD](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/story_erd.png "Logo Title Text 1")
+
+
+### Comments Database ERD
+![Comments Database ERD](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/comment_erd.png "Logo Title Text 1")
+
 
 ##  Scope
 
