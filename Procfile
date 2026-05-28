@@ -1,1 +1,1 @@
-web: gunicorn WOTS.wsgi
+web: gunicorn wotsapp.wsgi
