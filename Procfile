@@ -1,3 +1,1 @@
-* **Python (using Gunicorn):**
-  ```text
-web: gunicorn app:app
+main.py	web: gunicorn main:app
