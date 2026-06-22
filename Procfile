@@ -1,1 +1,1 @@
-main.py	web: gunicorn main:app
+web: gunicorn codestar.wsgi
