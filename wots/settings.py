@@ -30,7 +30,15 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
+
+
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '.herokuapp.com',
+    '.app.github.dev',
+    'glorious-orbit-q7p6jg94qx7j34x6-8000.app.github.dev',
+]
 
 
 # Application definition
@@ -44,6 +52,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django_summernote",
     "blog",
+    "about",
 ]
 
 MIDDLEWARE = [
@@ -93,8 +102,10 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeinstitute-ide.net/",
-    "https://*.herokuapp.com"
+    "https://*.app.github.dev",
+    "https://*.codeinstitute-ide.net",
+    "https://*.herokuapp.com",
+    "https://glorious-orbit-q7p6jg94qx7j34x6-8000.app.github.dev",
 ]
 
 
