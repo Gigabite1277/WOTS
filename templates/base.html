@@ -1,6 +1,6 @@
 {% load static %}
+
 {% url 'home' as home_url %}
-{% url 'about' as about_url %}
 {% url 'account_login' as login_url %}
 {% url 'account_signup' as signup_url %}
 {% url 'account_logout' as logout_url %}
@@ -9,7 +9,7 @@
 <html class="h-100" lang="en">
 
 <head>
-    <title>WOTS BLOG</title>
+    <title>W.O.T.S Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Google Fonts CSS -->
@@ -34,8 +34,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{% url 'home' %}">
-                <img src="{% static 'images/wotsbanners.png' %}" alt="My Blog Banner" height="60">
+            <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'images/wotsbanners.png' %}" alt="My Blog Banner" height="60">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,24 +47,27 @@
                             href="{% url 'home' %}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {% if request.path == about_url %}active{% endif %}" aria-current="page"
+                        <a class="nav-link
+                          {% if request.path == about_url %}active{%endif%}" aria-current="page"
                             href="{% url 'about' %}">About</a>
                     </li>
                     {% if user.is_authenticated %}
-<li class="nav-item">
-	<a class="nav-link {% if request.path == logout_url %}active{% endif %}" aria-current="page" href="{% url 'account_logout' %}">Logout</a>
-</li>
-{% else %}
-<li class="nav-item">
-	<a class="nav-link {% if request.path == signup_url %}active{% endif %}" aria-current="page"
-		href="{% url 'account_signup' %}">Register</a>
-</li>
-<li class="nav-item">
-	<a class="nav-link {% if request.path == login_url %}active{% endif %}" aria-current="page" href="{% url 'account_login' %}">Login</a>
-</li>
-{% endif %}
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == logout_url %}active{% endif %}" aria-current="page"
+                            href="{% url 'account_logout' %}">Logout</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == signup_url %}active{% endif %}" aria-current="page"
+                            href="{% url 'account_signup' %}">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == login_url %}active{% endif %}" aria-current="page"
+                            href="{% url 'account_login' %}">Login</a>
+                    </li>
+                    {% endif %}
                 </ul>
-                <span class="navbar-text text-muted"></span>
+                
             </div>
         </div>
     </nav>
@@ -95,7 +97,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
         </script>
-            <script src="{% static 'js/script.js' %}"></script>
+    <script src="{% static 'js/script.js' %}"></script>
 </body>
 
 </html>
+
