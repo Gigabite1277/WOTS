@@ -14,13 +14,15 @@ cffi==2.0.0
 charset-normalizer==3.4.5
 colorama==0.4.6
 comm==0.2.3
+crispy-bootstrap5==0.7
 cryptography==50.0.1
 debugpy==1.8.20
 decorator==5.2.1
 defusedxml==0.7.1
 dj-database-url==0.5.0
-Django==4.2.30
+Django==6.1.1
 django-allauth==0.57.2
+django-crispy-forms==2.7
 django-summernote==0.8.20.0
 executing==2.2.1
 fastjsonschema==2.21.2
