@@ -26,3 +26,25 @@ class Comment(models.Model):
     body = models.TextField()
     approved = models.BooleanField(default=False)
     created_on = models.DateTimeField(auto_now_add=True)
+
+
+class CommentVote(models.Model):
+    UPVOTE = 1
+    DOWNVOTE = -1
+    VALUE_CHOICES = ((UPVOTE, "Upvote"), (DOWNVOTE, "Downvote"))
+
+    comment = models.ForeignKey(
+        Comment, on_delete=models.CASCADE, related_name="votes"
+    )
+    user = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="comment_votes"
+    )
+    value = models.SmallIntegerField(choices=VALUE_CHOICES)
+    created_on = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(
+                fields=("comment", "user"), name="unique_comment_vote"
+            )
+        ]

@@ -62,6 +62,24 @@
           <div id="comment{{ comment.id }}">
             {{ comment.body | linebreaks }}
           </div>
+          {% if user.is_authenticated %}
+          <div class="comment-votes">
+            <form method="post" action="{% url 'comment_vote' post.slug comment.id 'up' %}">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-sm btn-outline-success">
+                Upvote {{ comment.upvote_count }}
+              </button>
+            </form>
+            <form method="post" action="{% url 'comment_vote' post.slug comment.id 'down' %}">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-sm btn-outline-danger">
+                Downvote {{ comment.downvote_count }}
+              </button>
+            </form>
+          </div>
+          {% else %}
+          <small class="text-muted">Log in to vote</small>
+          {% endif %}
           {% if not comment.approved and comment.author == user %}
           <p class="approval">
             This comment is awaiting approval

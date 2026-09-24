@@ -1,8 +1,12 @@
 from django.shortcuts import render, get_object_or_404, reverse
+from django.conf import settings
 from django.views import generic
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.db.models import Count, Q
 from django.http import HttpResponseRedirect
-from .models import Post, Comment
+from django.views.decorators.http import require_POST
+from .models import Post, Comment, CommentVote
 from .forms import CommentForm
 
 # Create your views here.
@@ -10,6 +14,7 @@ class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1)
     template_name = "blog/index.html"
     paginate_by = 6
+    extra_context = {"cloudinary_configured": settings.CLOUDINARY_CONFIGURED}
 
 
 def post_detail(request, slug):
@@ -28,7 +33,10 @@ def post_detail(request, slug):
 
     queryset = Post.objects.filter(status=1)
     post = get_object_or_404(queryset, slug=slug)
-    comments = post.comments.all().order_by("-created_on")
+    comments = post.comments.annotate(
+        upvote_count=Count("votes", filter=Q(votes__value=CommentVote.UPVOTE)),
+        downvote_count=Count("votes", filter=Q(votes__value=CommentVote.DOWNVOTE)),
+    ).order_by("-created_on")
     comment_count = post.comments.filter(approved=True).count()
 
     if request.method == "POST":
@@ -55,6 +63,31 @@ def post_detail(request, slug):
             "comment_form": comment_form,
         },
     )
+
+
+@login_required
+@require_POST
+def comment_vote(request, slug, comment_id, value):
+    post = get_object_or_404(Post.objects.filter(status=1), slug=slug)
+    comment = get_object_or_404(Comment, pk=comment_id, post=post)
+    value = {"up": CommentVote.UPVOTE, "down": CommentVote.DOWNVOTE}.get(value)
+
+    if value not in (CommentVote.UPVOTE, CommentVote.DOWNVOTE):
+        return HttpResponseRedirect(reverse("post_detail", args=[slug]))
+
+    vote, created = CommentVote.objects.get_or_create(
+        comment=comment,
+        user=request.user,
+        defaults={"value": value},
+    )
+    if not created:
+        if vote.value == value:
+            vote.delete()
+        else:
+            vote.value = value
+            vote.save(update_fields=["value"])
+
+    return HttpResponseRedirect(reverse("post_detail", args=[slug]))
 
 
 def comment_edit(request, slug, comment_id):

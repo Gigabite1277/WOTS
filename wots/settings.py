@@ -13,8 +13,25 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
+from django.core.exceptions import ImproperlyConfigured
 if os.path.isfile('env.py'):
     import env
+
+cloudinary_components = (
+    os.environ.get("CLOUDINARY_CLOUD_NAME"),
+    os.environ.get("CLOUDINARY_API_KEY"),
+    os.environ.get("CLOUDINARY_API_SECRET"),
+)
+CLOUDINARY_CONFIGURED = bool(
+    os.environ.get("CLOUDINARY_URL") or all(cloudinary_components)
+)
+if all(cloudinary_components):
+    CLOUDINARY_STORAGE = dict(
+        zip(
+            ("CLOUD_NAME", "API_KEY", "API_SECRET"),
+            cloudinary_components,
+        )
+    )
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,10 +42,17 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY") or "django-insecure-local-development-key"
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEPLOYMENT_ENV = os.environ.get("DJANGO_ENV", "development").lower()
+DEBUG = (
+    False
+    if DEPLOYMENT_ENV == "production"
+    else os.environ.get("DEBUG", "true").lower() == "true"
+)
+SECRET_KEY = os.environ.get("SECRET_KEY")
+if not SECRET_KEY:
+    if DEPLOYMENT_ENV == "production":
+        raise ImproperlyConfigured("SECRET_KEY must be set in production")
+    SECRET_KEY = "django-insecure-local-development-key"
 
 
 
@@ -126,6 +150,14 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.herokuapp.com",
     "https://glorious-orbit-q7p6jg94qx7j34x6-8000.app.github.dev",
 ]
+
+if DEPLOYMENT_ENV == "production":
+    SECURE_HSTS_SECONDS = 31536000
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+    SECURE_HSTS_PRELOAD = True
+    SECURE_SSL_REDIRECT = True
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
 
 
 # Password validation
