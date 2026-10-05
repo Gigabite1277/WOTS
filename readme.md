@@ -1,9 +1,9 @@
 ![W.O.T.S Logo](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsbanner.png "Logo Title Text 1")
 
-WOTS (Word On The Street) new/blog site.  The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
+WOTS (Word On The Street) is a new/blog site.  The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
 
 ## Strategy
-
+The strategy of this project is to answer what our users "The Community" want and need and nothing less.  So, using Agile project princibles is one of the best ways to acheive this.  Our strategy is to answer to the User Stories throughout the production process until all the user stories have been fufilled along with the project. 
 
 ## Project Goals
 
@@ -13,7 +13,7 @@ WOTS (Word On The Street) new/blog site.  The aim of WOTS is to give it's users 
 
 To find out whats going on in the local area. Things such as charity events, good news stories, neighbouhood watch, places shopping and other such information.
 
-To be able to comment on all news stories to promote community interaction, aulturism, innovation. 
+To be able to comment on all news stories to promote community interaction, aulturism, innovation. Also, being able to vote on comments left will help people decide on opinions held by people in the area.
   
 
 
@@ -101,19 +101,19 @@ Then: User is able to create a user account. Now able to comment on the story ab
 ---
 
 Story Title:
-Search & View Homepage Articles
+Browse & View Articles
 
 User Persona:
 Reader
 
 User Story:
-As a reader, I want to be able to search and then have a list articles on the homepage, so that stay I informed on specific events.
+As a reader, I want to be able to browse multiple pages of listed articles before clicking on one to read in detail.
 
 Acceptance Criteria:
 
 Scenario: User search for an article on local burglaries
 
-Then: User found 3 related articles of burglaries
+Then: User finds articles related to burglaries
 
 ---
 
@@ -199,6 +199,29 @@ Acceptance Criteria:
 Scenario: The site has been contacted by a business to inform us that a story we published about them has out of date information in it.
 
 Then: Admin pulled the old article and published a new and corrected news article.
+
+
+---
+
+Story Title:
+The About App 
+
+User Persona(s):
+Reader and Site supervisor
+
+User Story (Reader):
+I want to read an introduction to the blog's superuser/editor and have a way to contact them directly.
+
+User Story(Site Supervisor)
+I want describe the purpose of the blog site and be able to receive feedback from readers and article contributors.
+
+
+Acceptance Criteria (Reader):
+
+Then: Local based user comes across the site whilst browsing and is inspired to become a contributor for the benefit of the local community. The user contatcts the site supervisor by using the About form contact form.
+
+Acceptance Criteria (Site Supervisor):
+Then: Site super visor receives About contact form messages from a prospective story contributor.
 
 
 **Database Schema**
