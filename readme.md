@@ -7,8 +7,11 @@ The strategy of this project is to answer what our users "The Community" want an
 
 ## Project Goals(Site Superviser)
 
-*The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
-  
+
+The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.
+The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly. Another goal is to bring the community together through shared interests and endeavours: things such as charity events,food banks, soup kitchens etc. Point the user towards local services and advice for social,
+
+
 ## User Goals(Readers/Contributors)
 
 To find out whats going on in the local area. Things such as charity events, good news stories, neighbouhood watch, places shopping and other such information.
@@ -16,7 +19,7 @@ To find out whats going on in the local area. Things such as charity events, goo
 To be able to comment on all news stories to promote community interaction, aulturism, innovation. Also, being able to vote on comments left will help people decide on opinions held by people in the area.
   
 
-## User Stories
+## User Stories **(Readers/Contributors/Site Admin)
 
 Story Title:
 Create a User Account
@@ -99,7 +102,62 @@ Scenario: User read an article and was shocked by the top comment.
 
 Then: User was able to vote down the comment using the up or down arrow buttons.
 
+### User Story: Site Administrator
 
+Story Title:
+Admin Dashboard
+
+User Persona:
+Admin
+
+User Story:
+As a admin, I want to use a Django Admin interface, so that to I can manage all users, categories, and articles in one place.
+
+Acceptance Criteria:
+
+Scenario: Site admin wants to remove some offensive comments.
+
+Then: Site admin removed homophobic comments
+
+---
+
+Story Title:
+Admin Publishing Control
+
+User Persona:
+Admin
+
+User Story:
+As an admin, I want to approve and publish drafts submitted by writers to ensure quality control.
+
+Acceptance Criteria:
+
+Scenario: The site has been contacted by a business to inform us that a story we published about them has out of date information in it.
+
+Then: Admin pulled the old article and published a new and corrected news article.
+
+
+---
+
+Story Title:
+The About App 
+
+User Persona(s):
+Reader and Site Admin
+
+User Story (Reader):
+I want to read an introduction to the blog's superuser/editor and have a way to contact them directly.
+
+User Story(Site Supervisor)
+I want describe the purpose of the blog site and be able to receive feedback from readers and article contributors.
+
+
+Acceptance Criteria (Reader):
+
+Then: Local based user comes across the site whilst browsing and is inspired to become a contributor for the benefit of the local community. The user contatcts the site supervisor by using the About form contact form.
+
+Acceptance Criteria (Site Admin):
+Then: Site Admin receives About contact form messages from a prospective story contributor.
 ---
 
 
@@ -157,62 +215,7 @@ For instance, in our car charger finding app, on the functional specifications s
 
 
 
-### User Story: Site Administrator
 
-Story Title:
-Admin Dashboard
-
-User Persona:
-Admin
-
-User Story:
-As a admin, I want to use a Django Admin interface, so that to I can manage all users, categories, and articles in one place.
-
-Acceptance Criteria:
-
-Scenario: Site admin wants to remove some offensive comments.
-
-Then: Site admin removed homophobic comments
-
----
-
-Story Title:
-Admin Publishing Control
-
-User Persona:
-Admin
-
-User Story:
-As an admin, I want to approve and publish drafts submitted by writers to ensure quality control.
-
-Acceptance Criteria:
-
-Scenario: The site has been contacted by a business to inform us that a story we published about them has out of date information in it.
-
-Then: Admin pulled the old article and published a new and corrected news article.
-
-
----
-
-Story Title:
-The About App 
-
-User Persona(s):
-Reader and Site supervisor
-
-User Story (Reader):
-I want to read an introduction to the blog's superuser/editor and have a way to contact them directly.
-
-User Story(Site Supervisor)
-I want describe the purpose of the blog site and be able to receive feedback from readers and article contributors.
-
-
-Acceptance Criteria (Reader):
-
-Then: Local based user comes across the site whilst browsing and is inspired to become a contributor for the benefit of the local community. The user contatcts the site supervisor by using the About form contact form.
-
-Acceptance Criteria (Site Supervisor):
-Then: Site super visor receives About contact form messages from a prospective story contributor.
 
 
 **Database Schema**
