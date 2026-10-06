@@ -163,12 +163,11 @@ Then: Site Admin receives About contact form messages from a prospective story c
 
 
 
-#   UX UI Desgign
+#   UX UI Design
 
 ##  Surface
 The wireframes and prototypes created on the skeleton plane will be used on the surface plane – the top and most concrete plane – to create the final pages for the product. At this stage, we’re concerned with the users’ sensory experience. This includes how the colours and textures employed in the visual design help them understand how to navigate through and interact with the site, and how the presentation of content draws their eye to key information.
 
-For our electric car charging app, this could mean creating a consistent colour palette and layout, where the logo appears at the top of the page, the most important information appears in a wide column in the middle of the page, and less important information is relegated to each side of the page. This layout anchors users with its consistent visual style while enabling them to easily find the information they’re seeking.
 
 ![W.O.T.S Logo](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/WOTS_Sketches_ALL.png "Logo Title Text 1")
 
@@ -209,10 +208,6 @@ W.O.T.S DATABASE ERD
 
 After deciding on the strategy, the scope of the product can be determined and laid out in detail. It’s here that all a product’s features are decided upon, including the information that users can find and the functionality that users can interact with. On this plane, the UX team will create a set of functional specifications that identifies and describes every single feature of the product and a list of content requirements that identifies every single piece of content that will be included.
 
-For instance, in our car charger finding app, on the functional specifications side we might want to include a feature to save previously discovered charging stations in our functional specifications. Meanwhile, in our content requirements we might list information like images of each charging station, maps of their locations, and details about the voltage of each available charger.
-
-
-
 
 
 
@@ -224,14 +219,6 @@ For instance, in our car charger finding app, on the functional specifications s
 ##  Strategy
 The bottom plane of the model is Strategy. As the most abstract and least constrained part of the project, this is where decisions should be made about what objectives the product should be designed to meet. These objectives should include the goals that both the clients and stakeholders behind the product want to meet and the goals of the users, who will eventually look to the product to solve specific problems for them.
 
-##DETAILS
-
-The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  
-The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
-Another goal is to bring the community together through shared interests and endeavours: things such as charity events,food banks, soup kitchens etc.
-Point the user towards local services and advice for social, 
-
-INCLUDE USER STORIES IN THIS SECTION
 
 ### Design Choices
 
