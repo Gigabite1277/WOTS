@@ -3,23 +3,23 @@
 WOTS (Word On The Street) is a new/blog site.  The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
 
 ## Strategy
-The strategy of this project is to answer what our users "The Community" want and need and nothing less.  So, using Agile project princibles is one of the best ways to acheive this.  Our strategy is to answer to the User Stories throughout the production process until all the user stories have been fufilled along with the project. 
-
-## Project Goals(Site Superviser)
+The strategy of this project is to answer what our users "The Community" want and need and nothing less.  So, using Agile project princibles is one of the best ways to acheive this.  Our strategy is to answer to the User Stories throughout the production process until all the user stories have been fufilled and in turn the goals of the project. Doing so makes the entire blog site productive in both informing it's users of everything happening in the communtiy/area whilst also able to get good feedback via comments (conversations), the and the voting system for comments made.
 
 
+
+
+## Project Goals ####(Site Superviser?Admin)
 The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.
 The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly. Another goal is to bring the community together through shared interests and endeavours: things such as charity events,food banks, soup kitchens etc. Point the user towards local services and advice for social,
 
 
-## User Goals(Readers/Contributors)
-
+## User Goals ####(Readers/Contributors)
 To find out whats going on in the local area. Things such as charity events, good news stories, neighbouhood watch, places shopping and other such information.
 
 To be able to comment on all news stories to promote community interaction, aulturism, innovation. Also, being able to vote on comments left will help people decide on opinions held by people in the area.
   
 
-## User Stories **(Readers/Contributors/Site Admin)
+## User Stories ####(Readers/Contributors/Site Admin)
 
 Story Title:
 Create a User Account
@@ -158,6 +158,7 @@ Then: Local based user comes across the site whilst browsing and is inspired to 
 
 Acceptance Criteria (Site Admin):
 Then: Site Admin receives About contact form messages from a prospective story contributor.
+
 ---
 
 
@@ -174,8 +175,7 @@ For our electric car charging app, this could mean creating a consistent colour 
 
 ##  Skeleton
 After deciding how the product will be structured, its skeleton can be designed. This entails deciding where the navigation and functional elements from the previous plane will go on each product page. It’s here that UX designers will make decisions about the product’s information design, creating wireframes and prototypes that arrange each part of the product, including the buttons, links, images and text. These are laid out in a way that ensures that users can quickly move through each page to find the information they need, while also understanding which elements of each page are interactive and which are not.
-
-For instance, in our app, if we want to explain what users will see when they navigate to a page that describes a specific electric car charging station, we would create a wireframe that provides a blueprint of where each component of the page would go. Perhaps we have a header with the app logo and navigation back to the complete list of stations. This will be followed by an image of the charging station, followed by a link to a map of the location followed by text providing practical information about the station. This will help visualise each piece of functionality and content that will appear on the page and its placement.
+This will help visualise each piece of functionality and content that will appear on the page and its placement.
 
 **W.O.T.S Wireframes**
 
@@ -189,9 +189,7 @@ On the interaction design side, we need to decide how users will interact with t
 
 On the information architecture side, we need to structure the content the product offers in a way that makes it easy for users to find what they’re looking for. This can be conveyed through documents like site maps that outline the hierarchy and pattern of each part of the product.
 
-For example, to convey the structure of our electric car charger finder app, we might create a site map that shows the hierarchy of the product. This could include a home page where users can enter a location to find car charging stations. This could then lead to a list of stations each with a link that takes users to pages for individual stations.
 
-In addition, we could also create a user flow where we show how the system responds after a user enters their location information. It can account for what happens if the system finds nearby charging stations and if there’s an error that prevents the system from successfully understanding the location information provided.
 
 W.O.T.S DATABASE ERD
 
@@ -226,10 +224,6 @@ For instance, in our car charger finding app, on the functional specifications s
 ##  Strategy
 The bottom plane of the model is Strategy. As the most abstract and least constrained part of the project, this is where decisions should be made about what objectives the product should be designed to meet. These objectives should include the goals that both the clients and stakeholders behind the product want to meet and the goals of the users, who will eventually look to the product to solve specific problems for them.
 
-For example, let’s say we’ve been hired to build an app that helps people find charging stations for electric cars. On the one hand, we must be sure to meet the product objectives, which in this case would be goals such as, “Informing electric car owners of the nearest place to charge their cars”.
-
-On the other hand, we need to meet user needs if we want users to come to our app for information. That means we need to understand what goals users would have when using the app, which we can discover through user research. In this case, we might want to learn if users would want our product to provide directions to the nearest charging station, information about how many chargers are available there and how much it costs to charge a car at each listed charging station.
-
 ##DETAILS
 
 The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  
@@ -257,7 +251,7 @@ Icons
 
 ### Colours
 
-The colour scheme wil be most purple, black and white
+The colour scheme wil be mostly purple, black and white. We found that market research indicated that these were the most politically neutral colours, that could be accepted across the whole community.
 
 
 Styling
@@ -285,7 +279,7 @@ Styling
 HTML, CSS, Javascript, Python
 
 ###Developement Platforms###
-Git Hub, Heroku
+Git Hub (Development), Heroku (Platform as a Service (PaaS))
 
 
 ## Testing 
@@ -297,7 +291,7 @@ Git Hub, Heroku
 ## Deployment
 Via Heroku
 
-* Make sure the branch you want to use as your publishing source already exists in your repository.
+* Make sure the branch (normally "Main") you want to use as your publishing source  already exists in your repository.
 
 * On GitHub, navigate to your site's repository.
 
