@@ -45,7 +45,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # SECURITY WARNING: keep the secret key used in production secret!
 DEPLOYMENT_ENV = os.environ.get("DJANGO_ENV", "development").lower()
 DEBUG = (
-    False
+    True
     if DEPLOYMENT_ENV == "production"
     else os.environ.get("DEBUG", "true").lower() == "true"
 )

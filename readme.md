@@ -181,6 +181,7 @@ The WOTS blog site is to be designed for use on desktop pc, mobile phone or tabl
               ##Article - Page
               ##Sign In - Page
               ##Sign Up - Page 
+              ##About - Page
 
 Initial sketches of the basic structure for the WOTS site are listed below.
 
@@ -199,33 +200,25 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 
 
 
-W.O.T.S DATABASE ERD
+W.O.T.S DATABASE SCHEMA & ERDs
+
+**Database Diagrams**
+
+![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsblogdbdiagram.png "Logo Title Text 1")
+
 
 ### Reader Database ERD
-![Reader Database ERD](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/reader_erd.png "Logo Title Text 1")
+![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutappdiagram.png "Logo Title Text 1")
 
 
-### Story Database ERD
-![Story Database ERD](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/story_erd.png "Logo Title Text 1")
+[Links to the WOTS Database ERD files for the blog site, and the Comment Voting system](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsblogapperd2.pdf
+
+[Links to the WOTS Database ERD files for the About App and the Comment Voting system](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutapperd2.pdf
+
 
 
 ### Comments Database ERD
-![Comments Database ERD](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/comment_erd.png "Logo Title Text 1")
-
-
-##  Scope
-
-
-
-
-
-
-**Database Schema**
-
-![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/dbdiagram.png "Logo Title Text 1")
-
-
-##  Strategy
+![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/comment_erd.png "Logo Title Text 1")
 
 
 
