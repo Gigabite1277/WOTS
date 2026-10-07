@@ -3,7 +3,7 @@
 WOTS (Word On The Street) is a new/blog site.  The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
 
 ## Strategy
-The strategy of this project is to answer what our users "The Community" want and need and nothing less.  So, using Agile project princibles is one of the best ways to acheive this.  Our strategy is to answer to the User Stories throughout the production process until all the user stories have been fufilled and in turn the goals of the project. Doing so makes the entire blog site productive in both informing it's users of everything happening in the communtiy/area whilst also able to get good feedback via comments (conversations), the and the voting system for comments made.
+
 
 
 
@@ -13,13 +13,13 @@ The aim of WOTS is to give it's users up to date information on "Wots" happening
 The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly. Another goal is to bring the community together through shared interests and endeavours: things such as charity events,food banks, soup kitchens etc. Point the user towards local services and advice for social,
 
 
-## User Goals ####(Readers/Contributors)
+## User Goals (Readers/Contributors)
 To find out whats going on in the local area. Things such as charity events, good news stories, neighbouhood watch, places shopping and other such information.
 
 To be able to comment on all news stories to promote community interaction, aulturism, innovation. Also, being able to vote on comments left will help people decide on opinions held by people in the area.
   
 
-## User Stories ####(Readers/Contributors/Site Admin)
+## User Stories (Readers/Contributors/Site Admin)
 
 Story Title:
 Create a User Account
@@ -166,15 +166,28 @@ Then: Site Admin receives About contact form messages from a prospective story c
 #   UX UI Design
 
 ##  Surface
-The wireframes and prototypes created on the skeleton plane will be used on the surface plane – the top and most concrete plane – to create the final pages for the product. At this stage, we’re concerned with the users’ sensory experience. This includes how the colours and textures employed in the visual design help them understand how to navigate through and interact with the site, and how the presentation of content draws their eye to key information.
 
+
+##  Skeleton
+After deciding how the product will be structured, its skeleton can be designed. This entails deciding where the navigation and functional elements from the previous plane will go on each product page.
+
+
+---
+
+The WOTS blog site is to be designed for use on desktop pc, mobile phone or tablet. A clear clutter free front page, titles and navigation is key to a blog site that's meant to be accessible to serve everyone from the local community. So here are the pages involved:
+
+              ##Home - Page
+              ##Article List - Page
+              ##Article - Page
+              ##Sign In - Page
+              ##Sign Up - Page 
+
+Initial sketches of the basic structure for the WOTS site are listed below.
 
 ![W.O.T.S Logo](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/WOTS_Sketches_ALL.png "Logo Title Text 1")
 
 
-##  Skeleton
-After deciding how the product will be structured, its skeleton can be designed. This entails deciding where the navigation and functional elements from the previous plane will go on each product page. It’s here that UX designers will make decisions about the product’s information design, creating wireframes and prototypes that arrange each part of the product, including the buttons, links, images and text. These are laid out in a way that ensures that users can quickly move through each page to find the information they need, while also understanding which elements of each page are interactive and which are not.
-This will help visualise each piece of functionality and content that will appear on the page and its placement.
+
 
 **W.O.T.S Wireframes**
 
@@ -182,11 +195,7 @@ This will help visualise each piece of functionality and content that will appea
 
 
 ##  Structure
-Once the scope of the product has been outlined, it’s time to start working on the structure. This is where each element of navigation will be decided, including where in the product each page can be found and where users can go after arriving at a given page. This involves defining the interaction design and information architecture of the product.
 
-On the interaction design side, we need to decide how users will interact with the site and how the system will respond, including what will happen if errors are made. This can be conveyed through conceptual models that explain each part of the user interface – usually in a flow chart format – that defines what users can do and how the product will react to each potential choice the user makes.
-
-On the information architecture side, we need to structure the content the product offers in a way that makes it easy for users to find what they’re looking for. This can be conveyed through documents like site maps that outline the hierarchy and pattern of each part of the product.
 
 
 
@@ -206,7 +215,7 @@ W.O.T.S DATABASE ERD
 
 ##  Scope
 
-After deciding on the strategy, the scope of the product can be determined and laid out in detail. It’s here that all a product’s features are decided upon, including the information that users can find and the functionality that users can interact with. On this plane, the UX team will create a set of functional specifications that identifies and describes every single feature of the product and a list of content requirements that identifies every single piece of content that will be included.
+
 
 
 
@@ -217,7 +226,7 @@ After deciding on the strategy, the scope of the product can be determined and l
 
 
 ##  Strategy
-The bottom plane of the model is Strategy. As the most abstract and least constrained part of the project, this is where decisions should be made about what objectives the product should be designed to meet. These objectives should include the goals that both the clients and stakeholders behind the product want to meet and the goals of the users, who will eventually look to the product to solve specific problems for them.
+
 
 
 ### Design Choices
@@ -271,7 +280,7 @@ Git Hub (Development), Heroku (Platform as a Service (PaaS))
 
 ## Testing 
  
-    
+    Manual testing and Automatic test data can go here.
 
 
 ---
