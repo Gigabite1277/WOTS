@@ -202,23 +202,23 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 
 W.O.T.S DATABASE SCHEMA & ERDs
 
-**Database Diagrams**
+### Database Flowchart Diagrams
 
 ![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsblogdbdiagram.png "Logo Title Text 1")
 
 
-### Reader Database ERD
 ![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutappdiagram.png "Logo Title Text 1")
 
 
+### Reader Database ERD
+
 [Links to the WOTS Database ERD files for the blog site, and the Comment Voting system](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsblogapperd2.pdf
 
-[Links to the WOTS Database ERD files for the About App and the Comment Voting system](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutapperd2.pdf
+[Links to the WOTS Database ERD files for the About App](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutapperd2.pdf
 
 
 
-### Comments Database ERD
-![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/comment_erd.png "Logo Title Text 1")
+
 
 
 
@@ -329,5 +329,4 @@ IMAGES: Sourced from
 ## Acknowledgements
 
 ---
-NOTES:
-SOUNDS: 
+
