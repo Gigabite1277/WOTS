@@ -2,10 +2,6 @@
 
 WOTS (Word On The Street) is a new/blog site.  The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
 
-## Strategy
-
-
-
 
 
 ## Project Goals ####(Site Superviser?Admin)
@@ -161,27 +157,19 @@ Then: Site Admin receives About contact form messages from a prospective story c
 
 ---
 
+### Design Choices
 
 
 #   UX UI Design
-
-##  Surface
-
-
-##  Skeleton
-After deciding how the product will be structured, its skeleton can be designed. This entails deciding where the navigation and functional elements from the previous plane will go on each product page.
-
 
 ---
 
 The WOTS blog site is to be designed for use on desktop pc, mobile phone or tablet. A clear clutter free front page, titles and navigation is key to a blog site that's meant to be accessible to serve everyone from the local community. So here are the pages involved:
 
-              ##Home - Page
-              ##Article List - Page
-              ##Article - Page
-              ##Sign In - Page
-              ##Sign Up - Page 
-              ##About - Page
+              ## Home/Listed Articles - Page
+              ## Article - Page
+              ## Sign In/Sign Up - Page
+              ## About - Page
 
 Initial sketches of the basic structure for the WOTS site are listed below.
 
@@ -195,12 +183,6 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 ![W.O.T.S Wireframes](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotswireframe.png "Logo Title Text 1")
 
 
-##  Structure
-
-
-
-
-W.O.T.S DATABASE SCHEMA & ERDs
 
 ### Database Flowchart Diagrams
 
@@ -222,7 +204,7 @@ W.O.T.S DATABASE SCHEMA & ERDs
 
 
 
-### Design Choices
+
 
 
 
@@ -231,7 +213,7 @@ W.O.T.S DATABASE SCHEMA & ERDs
 
 #### Fonts
 
-  Black font lettering against a white background for best visual experience for the user.
+Black font lettering against a white background for best visual experience for the user.
 
 Icons
 
