@@ -164,24 +164,32 @@ Then: Site Admin receives About contact form messages from a prospective story c
 
 ---
 
+
 The WOTS blog site is to be designed for use on desktop pc, mobile phone or tablet. A clear clutter free front page, titles and navigation is key to a blog site that's meant to be accessible to serve everyone from the local community. So here are the pages involved:
 
-              ## Home/Listed Articles - Page
-              ## Article - Page
-              ## Sign In/Sign Up - Page
-              ## About - Page
+#### Home/Listed Articles - Page
+#### Article - Page
+#### Sign In/Sign Up - Page
+#### About - Page
+
+
+---
+
 
 Initial sketches of the basic structure for the WOTS site are listed below.
 
 ![W.O.T.S Logo](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/WOTS_Sketches_ALL.png "Logo Title Text 1")
 
 
+---
 
 
-**W.O.T.S Wireframes**
+## W.O.T.S Wireframes
 
 ![W.O.T.S Wireframes](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotswireframe.png "Logo Title Text 1")
 
+
+---
 
 
 ### Database Flowchart Diagrams
@@ -192,6 +200,9 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 ![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutappdiagram.png "Logo Title Text 1")
 
 
+---
+
+
 ### Reader Database ERD
 
 [Links to the WOTS Database ERD files for the blog site, and the Comment Voting system](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsblogapperd2.pdf
@@ -199,14 +210,7 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 [Links to the WOTS Database ERD files for the About App](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutapperd2.pdf
 
 
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -239,8 +243,6 @@ Styling
 ---
 
 ---
-## Scope
-## Features
 
 
 ---
