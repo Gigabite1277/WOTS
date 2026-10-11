@@ -157,10 +157,11 @@ Then: Site Admin receives About contact form messages from a prospective story c
 
 ---
 
-### Design Choices
 
 
-#   UX UI Design
+# Design Choices
+
+
 
 ---
 
@@ -224,7 +225,7 @@ Icons
 
   
 
-### Colours
+### Colours Scheme
 
 The colour scheme wil be mostly purple, black and white. We found that market research indicated that these were the most politically neutral colours, that could be accepted across the whole community.
 
