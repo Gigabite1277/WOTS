@@ -10,6 +10,8 @@ from .models import Post, Comment, CommentVote
 from .forms import CommentForm
 
 # Create your views here.
+
+
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1)
     template_name = "blog/index.html"
@@ -35,7 +37,9 @@ def post_detail(request, slug):
     post = get_object_or_404(queryset, slug=slug)
     comments = post.comments.annotate(
         upvote_count=Count("votes", filter=Q(votes__value=CommentVote.UPVOTE)),
-        downvote_count=Count("votes", filter=Q(votes__value=CommentVote.DOWNVOTE)),
+        downvote_count=Count(
+            "votes", filter=Q(votes__value=CommentVote.DOWNVOTE)
+        ),
     ).order_by("-created_on")
     comment_count = post.comments.filter(approved=True).count()
 
@@ -70,7 +74,10 @@ def post_detail(request, slug):
 def comment_vote(request, slug, comment_id, value):
     post = get_object_or_404(Post.objects.filter(status=1), slug=slug)
     comment = get_object_or_404(Comment, pk=comment_id, post=post)
-    value = {"up": CommentVote.UPVOTE, "down": CommentVote.DOWNVOTE}.get(value)
+    value = {
+        "up": CommentVote.UPVOTE,
+        "down": CommentVote.DOWNVOTE,
+    }.get(value)
 
     if value not in (CommentVote.UPVOTE, CommentVote.DOWNVOTE):
         return HttpResponseRedirect(reverse("post_detail", args=[slug]))
@@ -106,9 +113,13 @@ def comment_edit(request, slug, comment_id):
             comment.post = post
             comment.approved = False
             comment.save()
-            messages.add_message(request, messages.SUCCESS, 'Comment Updated!')
+            messages.add_message(
+                request, messages.SUCCESS, 'Comment Updated!'
+            )
         else:
-            messages.add_message(request, messages.ERROR, 'Error updating comment!')
+            messages.add_message(
+                request, messages.ERROR, 'Error updating comment!'
+            )
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
@@ -125,7 +136,10 @@ def comment_delete(request, slug, comment_id):
         comment.delete()
         messages.add_message(request, messages.SUCCESS, 'Comment deleted!')
     else:
-        messages.add_message(request, messages.ERROR, 'You can only delete your own comments!')
+        messages.add_message(
+            request,
+            messages.ERROR,
+            'You can only delete your own comments!',
+        )
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
-

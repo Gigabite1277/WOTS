@@ -45,7 +45,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # SECURITY WARNING: keep the secret key used in production secret!
 DEPLOYMENT_ENV = os.environ.get("DJANGO_ENV", "development").lower()
 DEBUG = (
-    False
+    True
     if DEPLOYMENT_ENV == "production"
     else os.environ.get("DEBUG", "true").lower() == "true"
 )
@@ -54,8 +54,6 @@ if not SECRET_KEY:
     if DEPLOYMENT_ENV == "production":
         raise ImproperlyConfigured("SECRET_KEY must be set in production")
     SECRET_KEY = "django-insecure-local-development-key"
-
-
 
 ALLOWED_HOSTS = [
     'localhost',
@@ -76,7 +74,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     'cloudinary_storage',
-     'django.contrib.sites',
+    'django.contrib.sites',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -131,12 +129,12 @@ WSGI_APPLICATION = "wots.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-#DATABASES = {
-#    "default": {
-#        "ENGINE": "django.db.backends.sqlite3",
-#        "NAME": BASE_DIR / "db.sqlite3",
-#    }
-#}
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
 
 DATABASE_URL = os.environ.get("DATABASE_URL")
 DATABASES = {
@@ -170,20 +168,32 @@ if DEPLOYMENT_ENV == "production":
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
-#AUTH_PASSWORD_VALIDATORS = [
-#   {
-#        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
-#   },
-#    {
-#        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
-#    },
-#    {
-#        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",
-#    },
-#    {
-#        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
-#    },
-#]
+# AUTH_PASSWORD_VALIDATORS = [
+#     {
+#         "NAME": (
+#             "django.contrib.auth.password_validation."
+#             "UserAttributeSimilarityValidator"
+#         ),
+#     },
+#     {
+#         "NAME": (
+#             "django.contrib.auth.password_validation."
+#             "MinimumLengthValidator"
+#         ),
+#     },
+#     {
+#         "NAME": (
+#             "django.contrib.auth.password_validation."
+#             "CommonPasswordValidator"
+#         ),
+#     },
+#     {
+#         "NAME": (
+#             "django.contrib.auth.password_validation."
+#             "NumericPasswordValidator"
+#         ),
+#     },
+# ]
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 

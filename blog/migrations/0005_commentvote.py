@@ -22,7 +22,12 @@ class Migration(migrations.Migration):
                         verbose_name="ID",
                     ),
                 ),
-                ("value", models.SmallIntegerField(choices=[(1, "Upvote"), (-1, "Downvote")])),
+                (
+                    "value",
+                    models.SmallIntegerField(
+                        choices=[(1, "Upvote"), (-1, "Downvote")]
+                    ),
+                ),
                 ("created_on", models.DateTimeField(auto_now_add=True)),
                 (
                     "comment",
