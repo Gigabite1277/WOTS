@@ -195,16 +195,7 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 ---
 
 
-## Database Flowchart Diagrams
-
-![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsblogdbdiagram.png "Logo Title Text 1")
-
-
-![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutappdiagram.png "Logo Title Text 1")
-
-
----
-
+# Database Design 
 
 ## Reader Database ERD
 
@@ -215,6 +206,15 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 
 ---
 
+## Database Flowchart Diagrams
+
+![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsblogdbdiagram.png "Logo Title Text 1")
+
+
+![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutappdiagram.png "Logo Title Text 1")
+
+
+---
 
 
 
@@ -242,19 +242,36 @@ The colour scheme wil be mostly purple, black and white. We found that market re
 
 ![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotshomepage.png "W.O.T.S - Homepage")
 
+
+## Article - Page
+
 !["W.O.T.S - Article](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsarticlepage.png "W.O.T.S - Article")
+
+
+## About - Page
 
 ![W.O.T.S - About Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutpage.png "W.O.T.S - About Page")
 
+
+#### Sign Up - Page
+
 ![W.O.T.S - Sign Up Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssignuppage.png "W.O.T.S - Sign Up Page")
 
+
+#### Sign In - Page
+
 ![W.O.T.S - Sign In Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssigninpage.png "W.O.T.S - Sign In Page")
+
+
+#### Sign Out - Page
 
 ![W.O.T.S - Sign Out Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssignoutpage.png "W.O.T.S - Sign Out Page")
 
 
 
 ---
+
+
 ## Technologies Used
 
 ###software###
