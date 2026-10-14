@@ -236,6 +236,20 @@ Styling
 
 ##  Screenshots of the Finished Project that met user expectations
 
+![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotshomepage.png "W.O.T.S - Homepage")
+
+![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsarticlepage.png "W.O.T.S - Article")
+
+![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutpage.png "W.O.T.S - About Page")
+
+![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssignuppage.png "W.O.T.S - Sign Up Page")
+
+![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssignoutpage.png "W.O.T.S - Sign Out Page")
+
+![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssigninpage.png "W.O.T.S Sign In Page")
+
+
+
 ---
 
 
