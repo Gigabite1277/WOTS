@@ -1,26 +1,25 @@
 ![W.O.T.S Logo](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsbanner.png "Logo Title Text 1")
 
-WOTS (Word On The Street) is a new/blog site.  The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.  The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly.
-
-
-
+ 
 ## Project Goals 
-###(Site Superviser?Admin)
-The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.
-The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly. Another goal is to bring the community together through shared interests and endeavours: things such as charity events,food banks, soup kitchens etc. Point the user towards local services and advice for social,
+#### (Site Superviser?Admin)
+WOTS (Word On The Street) is a new/blog site.The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area. The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly. Another goal is to bring the community together through shared interests and endeavours: things such as charity events,food banks, soup kitchens etc. Point the user towards local services and advice for social,
 
 
 ## User Goals 
-### (Readers/Contributors)
+#### (Readers/Contributors)
 To find out whats going on in the local area. Things such as charity events, good news stories, neighbouhood watch, places shopping and other such information.
 
 To be able to comment on all news stories to promote community interaction, aulturism, innovation. Also, being able to vote on comments left will help people decide on opinions held by people in the area.
   
 
-## User Stories 
-### (Readers/Contributors/Site Admin)
+ ---
 
-Story Title: 
+
+## User Stories 
+##### (Readers/Contributors/Site Admin)
+
+#### Story Title: 
 Create a User Account
 
 User Persona:Reader
@@ -36,7 +35,7 @@ Then: User is able to create a user account. Now able to comment on the story ab
 
 ---
 
-Story Title: 
+#### Story Title: 
 Browse & View Articles
 
 User Persona: Reader
@@ -52,7 +51,7 @@ Then: User finds articles related to burglaries
 
 ---
 
-Story Title: 
+#### Story Title: 
 Post a Comment
 
 User Persona:
@@ -69,7 +68,7 @@ Then: User has posted a comment helped with police enquiries.
 
 ---
 
-Story Title:
+#### Story Title:
 Open a News Story
 
 User Persona:
@@ -85,7 +84,7 @@ Then: User finds an interesting news article then clicks on it.
 
 ---
 
-Story Title:
+#### Story Title:
 Up & Down Comment Rating
 
 User Persona:
@@ -99,16 +98,18 @@ Scenario: User read an article and was shocked by the top comment.
 
 Then: User was able to vote down the comment using the up or down arrow buttons.
 
+---
+
 ### User Story: Site Administrator
 
-Story Title:
+#### Story Title:
 Admin Dashboard
 
 User Persona:
 Admin
 
 User Story:
-As a admin, I want to use a Django Admin interface, so that to I can manage all users, categories, and articles in one place.
+As a admin, I want to use a Django Admin interface, so that to I can manage all users, categories, comments and articles in one place.
 
 Acceptance Criteria:
 
@@ -118,7 +119,7 @@ Then: Site admin removed homophobic comments
 
 ---
 
-Story Title:
+#### Story Title:
 Admin Publishing Control
 
 User Persona:
@@ -136,7 +137,7 @@ Then: Admin pulled the old article and published a new and corrected news articl
 
 ---
 
-Story Title:
+#### Story Title:
 The About App 
 
 User Persona(s):
@@ -155,6 +156,8 @@ Then: Local based user comes across the site whilst browsing and is inspired to 
 
 Acceptance Criteria (Site Admin):
 Then: Site Admin receives About contact form messages from a prospective story contributor.
+
+
 
 ---
 
@@ -192,7 +195,7 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 ---
 
 
-### Database Flowchart Diagrams
+## Database Flowchart Diagrams
 
 ![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsblogdbdiagram.png "Logo Title Text 1")
 
@@ -203,7 +206,7 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 ---
 
 
-### Reader Database ERD
+## Reader Database ERD
 
 [Links to the WOTS Database ERD files for the blog site, and the Comment Voting system](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsblogapperd2.pdf
 
@@ -215,7 +218,7 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 
 
 
-#### Fonts
+## Fonts
 
 Black font lettering against a white background for best visual experience for the user.
 
@@ -224,7 +227,7 @@ Icons
 
   
 
-### WOTS - Colour Scheme
+## WOTS - Colour Scheme
 
 The colour scheme wil be mostly purple, black and white. We found that market research indicated that these were the most politically neutral colours, that could be accepted across the whole community.
 
@@ -250,19 +253,6 @@ Styling
 
 
 
-
-
----
-
-
----
-
-
----
-
----
-
-
 ---
 ## Technologies Used
 
@@ -275,7 +265,7 @@ Git Hub (Development), Heroku (Platform as a Service (PaaS))
 
 ## Testing 
  
-    Manual testing and Automatic test data can go here.
+    Manual testing has been carried out on all funtionality on this platform. Account creation, browse and open comment on and vote up or down with excellent results and feedback from users.
 
 
 ---
