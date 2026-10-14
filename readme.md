@@ -11,14 +11,14 @@ The site will feature a number of articles that can be commented on by readers a
 
 
 ## User Goals 
-###(Readers/Contributors)
+### (Readers/Contributors)
 To find out whats going on in the local area. Things such as charity events, good news stories, neighbouhood watch, places shopping and other such information.
 
 To be able to comment on all news stories to promote community interaction, aulturism, innovation. Also, being able to vote on comments left will help people decide on opinions held by people in the area.
   
 
 ## User Stories 
-###(Readers/Contributors/Site Admin)
+### (Readers/Contributors/Site Admin)
 
 Story Title: 
 Create a User Account
@@ -163,15 +163,13 @@ Then: Site Admin receives About contact form messages from a prospective story c
 # Design Choices
 
 
-
----
-
-
 The WOTS blog site is to be designed for use on desktop pc, mobile phone or tablet. A clear clutter free front page, titles and navigation is key to a blog site that's meant to be accessible to serve everyone from the local community. So here are the pages involved:
 
 #### Home/Listed Articles - Page
 #### Article - Page
-#### Sign In/Sign Up - Page
+#### Sign In - Page
+#### Sign Out - Page
+#### Sign Up - Page
 #### About - Page
 
 
@@ -238,15 +236,17 @@ Styling
 
 ![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotshomepage.png "W.O.T.S - Homepage")
 
-![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsarticlepage.png "W.O.T.S - Article")
+!["W.O.T.S - Article](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsarticlepage.png "W.O.T.S - Article")
 
-![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutpage.png "W.O.T.S - About Page")
+![W.O.T.S - About Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutpage.png "W.O.T.S - About Page")
 
-![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssignuppage.png "W.O.T.S - Sign Up Page")
+![W.O.T.S - Sign Up Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssignuppage.png "W.O.T.S - Sign Up Page")
 
-![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssignoutpage.png "W.O.T.S - Sign Out Page")
+![W.O.T.S - Sign In Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssigninpage.png "W.O.T.S - Sign In Page")
 
-![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssigninpage.png "W.O.T.S Sign In Page")
+![W.O.T.S - Sign Out Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssignoutpage.png "W.O.T.S - Sign Out Page")
+
+
 
 
 
