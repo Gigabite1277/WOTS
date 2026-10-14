@@ -224,9 +224,11 @@ Icons
 
   
 
-### Colours Scheme
+### WOTS - Colour Scheme
 
 The colour scheme wil be mostly purple, black and white. We found that market research indicated that these were the most politically neutral colours, that could be accepted across the whole community.
+
+![W.O.T.S - Colour Scheme ](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotscolourpalette.png "W.O.T.S - Colour Scheme")
 
 
 Styling
