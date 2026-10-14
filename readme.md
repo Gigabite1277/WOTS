@@ -4,24 +4,26 @@ WOTS (Word On The Street) is a new/blog site.  The aim of WOTS is to give it's u
 
 
 
-## Project Goals ####(Site Superviser?Admin)
+## Project Goals 
+###(Site Superviser?Admin)
 The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area.
 The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly. Another goal is to bring the community together through shared interests and endeavours: things such as charity events,food banks, soup kitchens etc. Point the user towards local services and advice for social,
 
 
-## User Goals (Readers/Contributors)
+## User Goals 
+###(Readers/Contributors)
 To find out whats going on in the local area. Things such as charity events, good news stories, neighbouhood watch, places shopping and other such information.
 
 To be able to comment on all news stories to promote community interaction, aulturism, innovation. Also, being able to vote on comments left will help people decide on opinions held by people in the area.
   
 
-## User Stories (Readers/Contributors/Site Admin)
+## User Stories 
+###(Readers/Contributors/Site Admin)
 
-Story Title:
+Story Title: 
 Create a User Account
 
-User Persona:
-Reader
+User Persona:Reader
 
 User Story:
 As a reader, I want to create a WOTS account so that I can post a comment.
@@ -34,11 +36,10 @@ Then: User is able to create a user account. Now able to comment on the story ab
 
 ---
 
-Story Title:
+Story Title: 
 Browse & View Articles
 
-User Persona:
-Reader
+User Persona: Reader
 
 User Story:
 As a reader, I want to be able to browse multiple pages of listed articles before clicking on one to read in detail.
@@ -51,7 +52,7 @@ Then: User finds articles related to burglaries
 
 ---
 
-Story Title:
+Story Title: 
 Post a Comment
 
 User Persona:
