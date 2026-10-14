@@ -9,7 +9,7 @@ from django.views.decorators.http import require_POST
 from .models import Post, Comment, CommentVote
 from .forms import CommentForm
 
-# Create your views here.
+
 
 
 class PostList(generic.ListView):

@@ -253,17 +253,17 @@ The colour scheme wil be mostly purple, black and white. We found that market re
 ![W.O.T.S - About Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutpage.png "W.O.T.S - About Page")
 
 
-#### Sign Up - Page
+## Sign Up - Page
 
 ![W.O.T.S - Sign Up Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssignuppage.png "W.O.T.S - Sign Up Page")
 
 
-#### Sign In - Page
+## Sign In - Page
 
 ![W.O.T.S - Sign In Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssigninpage.png "W.O.T.S - Sign In Page")
 
 
-#### Sign Out - Page
+## Sign Out - Page
 
 ![W.O.T.S - Sign Out Page](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotssignoutpage.png "W.O.T.S - Sign Out Page")
 
