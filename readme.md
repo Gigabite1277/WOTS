@@ -233,11 +233,12 @@ The colour scheme wil be mostly purple, black and white. We found that market re
 
 ![W.O.T.S - Colour Scheme ](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotscolourpalette.png "W.O.T.S - Colour Scheme")
 
-
-Styling
+---
 
 
 ##  Screenshots of the Finished Project that met user expectations
+
+## Home/Listed Articles - Page
 
 ![W.O.T.S Homepage](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotshomepage.png "W.O.T.S - Homepage")
 
