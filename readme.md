@@ -166,9 +166,9 @@ Then: Site Admin receives About contact form messages from a prospective story c
 # Design Choices
 
 
-## Fonts
-
 The main iconic imagery used by WOTS will be that of it's logo. The logo is done in a style similar to a street name sign. This of course falls in line with the aim of being about the and local causes and needs.
+
+
 
 ## WOTS - Colour Scheme
 
@@ -239,6 +239,18 @@ The WOTS blog site is to be designed for use on desktop pc, mobile phone or tabl
 
 ![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutappdiagram.png "Logo Title Text 1")
 
+---
+
+
+### Testing:
+
+PLEASE REVIEW THE LINKED DOCUMENT REGARDING TESTING:
+
+Manual testing has been carried out on all funtionality on this platform. Account creation, browse and open comment and vote up or down etc
+
+Code validation was carried out on all relavant files and conformed to WC3 and PEP8 standards. This is also detailed in the manual testing document below.
+
+![W.O.T.S - Manual Testing Document](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotstesting.pdf "W.O.T.S - Manual Testing Document")
 
 
 ---
@@ -292,12 +304,6 @@ Git Hub (Development),
 Heroku (Platform as a Service (PaaS))
 Visual Studio
 
----
-
-## Testing 
- 
-    Manual testing has been carried out on all funtionality on this platform. Account creation, browse and open comment on and vote up or down with excellent results and feedback from users.
-
 
 ---
 
@@ -323,18 +329,6 @@ Visual Studio
 
 ---
 
-
-### Testing:
-
-PLEASE REVIEW THE LINKED DOCUMENT REGARDING TESTING:
-
-Manual Testing was successfully completed and documneted in the below link.
-
-Code validation was carried out on all relavant files and conformed to WC3 and PEP8 standards. This is also detailed in the manual testing document below.
-
-![W.O.T.S - Manual Testing Document](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotstesting.pdf "W.O.T.S - Manual Testing Document")
-
----
 
 ### Coding:
 
