@@ -169,6 +169,8 @@ Then: Site Admin receives About contact form messages from a prospective story c
 The main iconic imagery used by WOTS will be that of it's logo. The logo is done in a style similar to a street name sign. This of course falls in line with the aim of being about the and local causes and needs.
 
 
+---
+
 
 ## WOTS - Colour Scheme
 
@@ -176,6 +178,8 @@ The colour scheme wil be mostly purple, black and white. We found that market re
 
 ![W.O.T.S - Colour Scheme ](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotscolourpalette.png "W.O.T.S - Colour Scheme")
 
+
+---
 
 The WOTS blog site is to be designed for use on desktop pc, mobile phone or tablet. A clear clutter free front page, titles and navigation is key to a blog site that's meant to be accessible to serve everyone from the local community. So here are the pages involved:
 
@@ -192,10 +196,6 @@ The WOTS blog site is to be designed for use on desktop pc, mobile phone or tabl
 
 ## WOTS Blog Site- Features
 
----
-
-
-## Potential features to include:
 
 #### Posts can be up/down voted
 #### Comments can be left on apost
@@ -242,7 +242,7 @@ The WOTS blog site is to be designed for use on desktop pc, mobile phone or tabl
 ---
 
 
-### Testing:
+## Testing:
 
 PLEASE REVIEW THE LINKED DOCUMENT REGARDING TESTING:
 
@@ -296,7 +296,7 @@ Code validation was carried out on all relavant files and conformed to WC3 and P
 
 ### Software
 
-HTML, CSS, Javascript, Python
+Django, HTML, CSS, Javascript, Python
 
 ### Developement Platforms
 
