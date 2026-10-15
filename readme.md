@@ -166,6 +166,21 @@ Then: Site Admin receives About contact form messages from a prospective story c
 # Design Choices
 
 
+## Fonts
+
+Black font lettering against a white background for best visual experience for the user.
+
+Icons
+
+The main iconic imagery used by WOTS will be that of it's logo. The logo is done in a style similar to a street name sign. This of course falls in line with the aim of being about the and local causes and needs.
+
+## WOTS - Colour Scheme
+
+The colour scheme wil be mostly purple, black and white. We found that market research indicated that these were the most politically neutral colours, that could be accepted across the whole community.
+
+![W.O.T.S - Colour Scheme ](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotscolourpalette.png "W.O.T.S - Colour Scheme")
+
+
 The WOTS blog site is to be designed for use on desktop pc, mobile phone or tablet. A clear clutter free front page, titles and navigation is key to a blog site that's meant to be accessible to serve everyone from the local community. So here are the pages involved:
 
 #### Home/Listed Articles - Page
@@ -174,6 +189,21 @@ The WOTS blog site is to be designed for use on desktop pc, mobile phone or tabl
 #### Sign Out - Page
 #### Sign Up - Page
 #### About - Page
+
+
+---
+
+
+## WOTS Blog Site- Features
+
+---
+
+
+Potential features to include:
+● Postscanbeup/downvoted
+● Commentscanbeleftonapost
+● Time/Dateofposting
+● Topicgroupings/categorie
 
 
 ---
@@ -214,24 +244,7 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 ![Database Design](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotsaboutappdiagram.png "Logo Title Text 1")
 
 
----
 
-
-
-## Fonts
-
-Black font lettering against a white background for best visual experience for the user.
-
-Icons
-
-
-  
-
-## WOTS - Colour Scheme
-
-The colour scheme wil be mostly purple, black and white. We found that market research indicated that these were the most politically neutral colours, that could be accepted across the whole community.
-
-![W.O.T.S - Colour Scheme ](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotscolourpalette.png "W.O.T.S - Colour Scheme")
 
 ---
 
