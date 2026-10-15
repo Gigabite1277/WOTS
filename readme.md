@@ -199,11 +199,11 @@ The WOTS blog site is to be designed for use on desktop pc, mobile phone or tabl
 ---
 
 
-Potential features to include:
-● Postscanbeup/downvoted
-● Commentscanbeleftonapost
-● Time/Dateofposting
-● Topicgroupings/categorie
+## Potential features to include:
+#### Postscanbeup/downvoted
+#### Commentscanbeleftonapost
+#### Time/Dateofposting
+#### Topicgroupings/categorie
 
 
 ---
@@ -302,28 +302,29 @@ Git Hub (Development), Heroku (Platform as a Service (PaaS))
 ---
 
 
-## Deployment
-Via Heroku
+## Deployment to the Heroku Platform
 
-* Make sure the branch (normally "Main") you want to use as your publishing source  already exists in your repository.
+* Make sure the the project has been commited on Github first!
 
-* On GitHub, navigate to your site's repository.
+* Log into Heroku/apps
 
-* Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
+* Find and select your app from those listed
 
-* In the "Code and automation" section of the sidebar, click  Pages.
+* Select "Deploy" from the row of options
 
-* Under "Build and deployment", under "Source", select Deploy from a branch.
+* Ensure "Deployment method" is set to "Github connected"
 
-* Under "Build and deployment", use the branch dropdown menu and select a publishing source.
+* Make sure your branch is set to the default "Main" or whichever branch you set it to
 
-* Optionally, use the folder dropdown menu to select a folder for your publishing source.
+* Click the "Deploy Branch" button and wait for the the app to be built and deployed
 
-*  Click Save.
-
+* Click the "Open App" button at the top of the page to view your app
 
 
-### How To Run This Project locally
+
+
+
+### How To Run This Project locally Windows Visual Studio
 
  * In windows, open up the start menu and search for Visual Studio.
  * Select and run Visual Studio.
