@@ -2,12 +2,12 @@
 
  
 ## Project Goals 
-#### (Site Superviser?Admin)
-WOTS (Word On The Street) is a new/blog site.The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area. The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly. Another goal is to bring the community together through shared interests and endeavours: things such as charity events,food banks, soup kitchens etc. Point the user towards local services and advice for social,
+
+WOTS (Word On The Street) is a new/blog site.The aim of WOTS is to give it's users up to date information on "Wots" happening in their local area. The site will feature a number of articles that can be commented on by readers and voted up or down on accordingly. Another goal is to bring the community together through shared interests and endeavours: things such as charity events,food banks, soup kitchens etc. Point the reader towards local services and advice for social for community and local challenges.
 
 
 ## User Goals 
-#### (Readers/Contributors)
+
 To find out whats going on in the local area. Things such as charity events, good news stories, neighbouhood watch, places shopping and other such information.
 
 To be able to comment on all news stories to promote community interaction, aulturism, innovation. Also, being able to vote on comments left will help people decide on opinions held by people in the area.
@@ -168,10 +168,6 @@ Then: Site Admin receives About contact form messages from a prospective story c
 
 ## Fonts
 
-Black font lettering against a white background for best visual experience for the user.
-
-Icons
-
 The main iconic imagery used by WOTS will be that of it's logo. The logo is done in a style similar to a street name sign. This of course falls in line with the aim of being about the and local causes and needs.
 
 ## WOTS - Colour Scheme
@@ -286,7 +282,7 @@ The WOTS blog site is to be designed for use on desktop pc, mobile phone or tabl
 
 ## Technologies Used
 
-### software
+### Software
 
 HTML, CSS, Javascript, Python
 
@@ -328,28 +324,32 @@ Visual Studio
 ---
 
 
-## Testing:
+### Testing:
 
 PLEASE REVIEW THE LINKED DOCUMENT REGARDING TESTING:
-Manual Testing was successfully completed and documneted in the below link:
 
-Code validation was carried out on all relavant files and conformed to WC3 and PEP8 standards. This also detailed in the manual testing document below
+Manual Testing was successfully completed and documneted in the below link.
+
+Code validation was carried out on all relavant files and conformed to WC3 and PEP8 standards. This is also detailed in the manual testing document below.
 
 ![W.O.T.S - Manual Testing Document](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotstesting.pdf "W.O.T.S - Manual Testing Document")
 
+---
 
-### Code
+### Coding:
 
-This written by me using the guidence of the Code Institutes learning module "Codestar Blogs".
+This was written by me Neil Stewart, using the guidence of the Code Institutes learning module "Codestar Blogs".
 
+---
 
 ### Media (Picture & Video):
-IMAGES: Sourced from Google images.
+Images: Sourced from Google images.
 
+---
 
-## Acknowledgements
+### Acknowledgements
 
-
+Code Institutes learning module "Codestar Blogs".
 
 ---
 
