@@ -286,14 +286,17 @@ The WOTS blog site is to be designed for use on desktop pc, mobile phone or tabl
 
 ## Technologies Used
 
-###software###
+### software
+
 HTML, CSS, Javascript, Python
 
-###Developement Platforms###
+### Developement Platforms
+
 Git Hub (Development), 
 Heroku (Platform as a Service (PaaS))
 Visual Studio
 
+---
 
 ## Testing 
  
@@ -322,28 +325,17 @@ Visual Studio
 * Click the "Open App" button at the top of the page to view your app
 
 
-
-
-
-### How To Run This Project locally Windows Visual Studio
-
- * In windows, open up the start menu and search for Visual Studio.
- * Select and run Visual Studio.
- * Go to the menu bar on the top left of the screen and click on the top icon which is the three horizontal lines.
- * From the drop down menu go to File > Open Folder 
- * Locate the folder labled The Match or Miss and select.
- * Your Folder will be displayed in the File Explorer on the left hand side of the Visual Studio window.
- * From the files displayed in the file explorer select index.html to start broswsing or editing the site.   
-
-
-
 ---
 
+
 ## Testing:
+
 PLEASE REVIEW THE LINKED DOCUMENT REGARDING TESTING:
 Manual Testing was successfully completed and documneted in the below link:
 
-Code validation was carried out on all relavant files and conformed to WC3 and PEP8 standards. this also detailed in the testing document below
+Code validation was carried out on all relavant files and conformed to WC3 and PEP8 standards. This also detailed in the manual testing document below
+
+![W.O.T.S - Manual Testing Document](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/wotstesting.pdf "W.O.T.S - Manual Testing Document")
 
 
 ### Code
