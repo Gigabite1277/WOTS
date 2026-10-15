@@ -200,16 +200,16 @@ The WOTS blog site is to be designed for use on desktop pc, mobile phone or tabl
 
 
 ## Potential features to include:
-#### Postscanbeup/downvoted
-#### Commentscanbeleftonapost
-#### Time/Dateofposting
-#### Topicgroupings/categorie
+
+#### Posts can be up/down voted
+#### Comments can be left on apost
+#### Time/Date of posting
 
 
 ---
 
 
-Initial sketches of the basic structure for the WOTS site are listed below.
+## Initial sketches of the basic structure for the WOTS site are listed below.
 
 ![W.O.T.S Logo](https://github.com/Gigabite1277/WOTS/blob/main/assets/images/WOTS_Sketches_ALL.png "Logo Title Text 1")
 
@@ -245,11 +245,10 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 
 
 
-
 ---
 
 
-##  Screenshots of the Finished Project that met user expectations
+#  Screenshots of the Finished Project
 
 ## Home/Listed Articles - Page
 
@@ -291,7 +290,9 @@ Initial sketches of the basic structure for the WOTS site are listed below.
 HTML, CSS, Javascript, Python
 
 ###Developement Platforms###
-Git Hub (Development), Heroku (Platform as a Service (PaaS))
+Git Hub (Development), 
+Heroku (Platform as a Service (PaaS))
+Visual Studio
 
 
 ## Testing 
@@ -339,20 +340,24 @@ Git Hub (Development), Heroku (Platform as a Service (PaaS))
 ---
 
 ## Testing:
-PLEASE REVIEW THE LINKED DOCUMENT REGARDING TESTING, UX ETC
+PLEASE REVIEW THE LINKED DOCUMENT REGARDING TESTING:
+Manual Testing was successfully completed and documneted in the below link:
 
-
-## IMPROVMENTS:
+Code validation was carried out on all relavant files and conformed to WC3 and PEP8 standards. this also detailed in the testing document below
 
 
 ### Code
-All code written by me.
+
+This written by me using the guidence of the Code Institutes learning module "Codestar Blogs".
+
 
 ### Media (Picture & Video):
-IMAGES: Sourced from 
+IMAGES: Sourced from Google images.
 
 
 ## Acknowledgements
+
+
 
 ---
 

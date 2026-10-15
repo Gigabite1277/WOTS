@@ -117,19 +117,19 @@ body {
 
 .btn-signup,
 .btn-edit {
-    background-color: #ffff;
-    color: #8c08d3;
+    background-color: #8c08d3;
+    color: #ffff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
-    background-color: #ffff;
-    color: #8c08d3;
+    background-color: #8c08d3;
+    color: #ffff;
 }
 .btn btn-secondary:hover,
 .btn btn-secondary:active {
-    background-color: #ffff;
-    color: #8c08d3;
+    background-color: #8c08d3;
+    color: #ffff;
 
 .link {
     color: #23BBBB;
